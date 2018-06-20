@@ -16,3 +16,9 @@ Type into a command line:
 dotnet build
 ```
 
+# How to Build an executable
+Type into a command line:
+```
+dotnet publish -c Release -r os_version
+```
+where `os_version` is the desired OS. For example, if you want to make an executable for Windows 10 64-bit then the os_version will be win10-x64. The full command line would be `dotnet publish -c Release -r win10-x64`

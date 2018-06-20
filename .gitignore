@@ -1,0 +1,5 @@
+# Package files
+*.exe
+
+# Package folders
+bin/*

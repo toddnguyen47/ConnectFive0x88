@@ -1,5 +1,7 @@
-# FiveInARow0x88
+# Connect Five 0x88
 An AI to play a game similar to Tic-Tac-Toe except you need 5 in a row to win. This game will run on an 8x8 board represented by the [0x88 representation](http://mediocrechess.blogspot.com/2006/12/0x88-representation.html "0x88 board explanation"). The 0x88 representation is most often used to represent chess boards. Since chess boards and this board has the same size, we can also use 0x88 to represent the Five in a Row board.
+
+The algorithm that this AI will run on is the [MiniMax with Alpha-Beta Pruning](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning "Alpha-Beta Pruning Wikipedia").
 
 # Install C# Compiler
 Download the C# compiler (dotnet.exe and csc.exe) [here](https://www.microsoft.com/net/download/thank-you/dotnet-sdk-2.1.300-windows-x64-installer "C# Compiler").
